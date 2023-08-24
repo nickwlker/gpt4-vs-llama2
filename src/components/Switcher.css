@@ -1,0 +1,53 @@
+.Switcher {
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  margin-bottom: 32px;
+}
+
+.Switcher-Item {
+  display: flex;
+  width: 50%;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.25);
+  margin: 4px;
+  border: 0;
+  color: #ffffff;
+  transition: background ease-out 200ms;
+}
+
+.Switcher-Item:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.Switcher-Item:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.Switcher-Item:disabled:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.Switcher-Item.Active {
+  background: rgba(0, 171, 255, 1);
+  font-weight: 800;
+}
+
+.Switcher-Item.Active:hover {
+  background: rgba(0, 171, 255, 0.7);
+}
+
+.Switcher-Item.Active:disabled:hover {
+  background: rgba(0, 171, 255, 1);
+}

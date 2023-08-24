@@ -1,0 +1,53 @@
+.Message-Wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 4px;
+    display: flex;
+}
+
+.Message-Wrapper-Sent {
+    margin-left: auto;
+}
+
+.Message {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.2;
+    color:#FFFFFF;
+    display: flex;
+    border-radius: 16px;
+}
+
+.Message-Sent { 
+    background-color: #00ABFF;
+    border-bottom-right-radius: 0;
+    margin-left: auto;
+    order: 1;
+}
+
+.Message-Received {
+    border-top-left-radius: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    order: 0;
+}
+
+.Message-Avatar {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto 8px 0;
+    display: flex;
+    flex: 0 0 32px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Message-Avatar-Left {
+    order: 0;
+}
+.Message-Avatar-Right {
+    order: 2;
+}

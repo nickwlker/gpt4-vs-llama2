@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Button {
+  display: flex;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.25);
+  margin: 16px auto;
+  border: 0;
+  color: #FFFFFF;
+  font-weight: 800;
+  transition: background ease-out 200ms;
+}
+
+.App-Button.Active {
+  background: rgba(0, 171, 255, 1);
+}
+
+.App-Button.Active:hover {
+  background: rgba(0, 171, 255, 0.7);
+}
+
+.App-Button.Disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

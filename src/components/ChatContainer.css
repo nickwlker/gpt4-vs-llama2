@@ -1,0 +1,20 @@
+.ChatContainer {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 16px;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.No-Messages {
+    color: rgba(255,255,255,0.1);
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
